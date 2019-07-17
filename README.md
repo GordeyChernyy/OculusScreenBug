@@ -9,12 +9,9 @@ How to reproduce:
 
 Open the build while not wearing the headset
 
-Headset doesn't go into pause like it was before 
+Headset doesn't go into pause like it was before so it updates everything in computer display 
 
-Press SPACE to load another scene
-
-screen is now black
-
+Press SPACE to load another scene without wearing the headset. After loading scene if you will put headset on you will get black screen inside headset but computer display will render everything.
 
 If doing all the same while wearing the headset everything is fine. 
 
