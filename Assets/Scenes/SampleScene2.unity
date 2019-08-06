@@ -861,7 +861,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1918664713}
   - component: {fileID: 1918664712}
-  - component: {fileID: 1918664715}
   - component: {fileID: 1918664714}
   m_Layer: 0
   m_Name: Camera
@@ -943,18 +942,6 @@ MonoBehaviour:
   speed: 0.2
   angleMax: 3
   rotationSmooth: 0.2
---- !u!114 &1918664715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918664711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86ca1dbf8cffd11489c1f18964c873a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2138677391
 GameObject:
   m_ObjectHideFlags: 0
