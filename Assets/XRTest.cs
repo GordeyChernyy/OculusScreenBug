@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.XR;
+using UnityEngine.XR.WSA;
 
-public class SceneChange : MonoBehaviour
+public class XRTest : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,10 +15,7 @@ public class SceneChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene(1);
-        }
-    }
 
+        //XRSettings.enabled = true;
+    }
 }
