@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
+    public int sceneNum;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class SceneChange : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(sceneNum);
         }
     }
 
